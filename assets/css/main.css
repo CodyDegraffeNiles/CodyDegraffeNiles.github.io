@@ -3965,12 +3965,12 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.01), rgba(0,0,0,0.01)), url("../../images/profile.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.01), rgba(0,0,0,0.01)), url("../../images/profile.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.01), rgba(0,0,0,0.01)), url("../../images/profile.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0.01), rgba(0,0,0,0.01)), url("../../images/profile.png");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/profile.jpeg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/profile.jpeg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/profile.jpeg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/profile.jpeg");
 		background-attachment: fixed;
-		background-position: center center;
+		/* background-position: center center; */
 		background-repeat: no-repeat;
 		background-size: cover;
 		padding-top: 0;
@@ -3986,11 +3986,11 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/profile.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/profile.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/profile.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/profile.png");
-		background-position: center center;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/profile.jpeg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/profile.jpeg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/profile.jpeg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/profile.jpeg");
+		/* background-position: center center; */
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
